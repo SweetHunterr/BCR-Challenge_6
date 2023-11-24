@@ -1,0 +1,210 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0",
+    "title": "CHALLENGE-6",
+    "contact": {}
+  },
+  "host": "localhost:8080",
+  "basePath": "/api/v1",
+  "securityDefinitions": {},
+  "schemes": [
+    "http"
+  ],
+  "consumes": [
+    "application/json"
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "paths": {
+    "/registerAdmin": {
+      "post": {
+        "summary": "CREATE ADMIN",
+        "tags": [
+          "User"
+        ],
+        "operationId": "CREATEADMIN",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/auth": {
+      "post": {
+        "summary": "AUTH USER (TO GET TOKEN)",
+        "tags": [
+          "User"
+        ],
+        "operationId": "AUTHUSER(TOGETTOKEN)",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/registerMember": {
+      "post": {
+        "summary": "CREATE MEMBER",
+        "tags": [
+          "User"
+        ],
+        "operationId": "CREATEMEMBER",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/currentUser": {
+      "get": {
+        "summary": "GET CURRENT USER",
+        "tags": [
+          "User"
+        ],
+        "operationId": "GETCURRENTUSER",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/createCar": {
+      "post": {
+        "summary": "CREATE CAR",
+        "tags": [
+          "Car"
+        ],
+        "operationId": "CREATECAR",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/getAllCar": {
+      "get": {
+        "summary": "GET ALL CAR",
+        "tags": [
+          "Car"
+        ],
+        "operationId": "GETALLCAR",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/getOneCar/4": {
+      "get": {
+        "summary": "GET ONE CAR",
+        "tags": [
+          "Car"
+        ],
+        "operationId": "GETONECAR",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/updateCar/4": {
+      "put": {
+        "summary": "UPDATE CAR",
+        "tags": [
+          "Car"
+        ],
+        "operationId": "UPDATECAR",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/deleteCar/6": {
+      "delete": {
+        "summary": "DELETE CAR",
+        "tags": [
+          "Car"
+        ],
+        "operationId": "DELETECAR",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "User"
+    },
+    {
+      "name": "Car"
+    }
+  ]
+}
